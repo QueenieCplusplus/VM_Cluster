@@ -1,7 +1,7 @@
 # VM_Cluster
 Hyper-V
 
-Failover cluster is a feature to provide available VM, if a node on which a VM is running fails, then the failover cluster will start the VM automatically on a different node.
+Failover cluster is a feature to provide available VM, if a node on which a VM is running fails, then the failover cluster will "restart the VM automatically" on a different node.
 
 ![failover cluster](https://i0.wp.com/www.itpromentor.com/wp-content/uploads/2016/12/hv-cluster-3.png?w=1560&ssl=1)
 
