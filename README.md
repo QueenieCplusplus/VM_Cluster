@@ -7,6 +7,20 @@ Failover cluster is a feature to provide available VM, if a node on which a VM i
 
 # Components of Failover Cluster
 
+
+
+                    shared bus || iSCSI connection
+                                |                  \
+                                |                   \        Failover Cluster
+                                V                    \
+          Node1(Host/Server) ------ Cluster Storage ------- Node2(Host/Server)
+         |           |                                               |          |
+         |           |                                               |          |
+         |           |______a dedicate network connects the nodes____|          |
+         |                                                                      |
+         |__________________________Clients_____________________________________|
+
+
 - [x] SMB, Server Msg Block.
 
 - [x] iSCSI, to config Internet Small Computer Sys Interface.
