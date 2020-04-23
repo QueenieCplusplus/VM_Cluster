@@ -19,7 +19,7 @@ Failover cluster is a feature to provide available VM, if a node on which a VM i
          |           |______a dedicate network connects the nodes____|          |
          |                                                                      |
          |__________________________Clients_____________________________________|
-
+                   ( a network connects the failover clusters and clients)          
 
 - [x] SMB, Server Msg Block.
 
