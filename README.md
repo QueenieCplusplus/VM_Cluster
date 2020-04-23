@@ -21,11 +21,13 @@ Failover cluster is a feature to provide available VM, if a node on which a VM i
          |__________________________Clients_____________________________________|
                    ( a network connects the failover clusters and clients)          
 
-- [x] SMB, Server Msg Block.
+
+- [x] Virtual Hard Disk, to present shared storage to VMs.
 
 - [x] iSCSI, to config Internet Small Computer Sys Interface.
 
-- [x] Virtual Hard Disk, to present shared storage to VMs.
+- [x] SMB, Server Msg Block as Shared Folder
+
 
 they can provide high availability, and share storage.
 
