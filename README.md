@@ -33,5 +33,13 @@ they can provide high availability, and share storage.
 
 * Encryption for Cluster Shared Volumes.
 
+# Main Roles in Failover Cluster
+
+(1) Shared Storage, 叢集共享記憶體
+
+(2) iSCSI Connection, 叢集網路介面
+
+(3) Encrpted Custer Volume, 加密的叢集卷宗
+
 
 
